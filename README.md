@@ -12,7 +12,7 @@ This project shows how an html and css file works with tools like Linters to imp
 
 
 ### Install
-Feel free to clone the repository at this URL: https://github.com/robinbenitezmora/Portfolio-Robin-Benitez/tree/Hello-Microverse
+Feel free to clone the repository at this URL: https://github.com/robinbenitezmora/Portfolio-Robin-Benitez
 
 Any suggestion is welcome.
 
