@@ -1,18 +1,20 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-# Hello Microverse
+# Robin's Portfolio
 
 >
-This project shows how an html and css file works with tools like Linters to improve the developer's work performance
+This portfolio shows my achievements and what I have been able to develop thanks to my abilities by designing products in the programming world. If you have a new project and need code it, feel free to contact me.
 
+image.png
 
 ## Built With
 
-- HTML5/CSS.
+- HTML5.
+- CSS.
 - Visual Studio Code.
 
 
 ### Install
-Feel free to clone the repository at this URL: https://github.com/robinbenitezmora/Portfolio-Robin-Benitez/tree/Hello-Microverse
+Feel free to clone the repository at this URL: https://github.com/robinbenitezmora/Portfolio-Robin-Benitez
 
 Any suggestion is welcome.
 
@@ -32,7 +34,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-I thank Microverse for allowing me to use their template.
+-I thank Microverse for allowing me to use their template.
+
+-Thanks to my coding partners and code reviewers for your good advices to improve my code.
 
 ## 📝 License
 
