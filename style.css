@@ -85,7 +85,10 @@ p {
   padding-bottom: 6rem;
 }
 
-.card1, .card2, .card3, .card4 {
+.card1, 
+.card2, 
+.card3, 
+.card4 {
   display: flex;
   flex-direction: column;
   background-color: #e5e5e5;
