@@ -85,7 +85,28 @@ p {
   padding-bottom: 6rem;
 }
 
-.card1, .card2, .card3, .card4 {
+.card1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+  padding: 114px 24px 44px 24px;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+  padding: 114px 24px 44px 24px;
+}
+
+.card3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+  padding: 114px 24px 44px 24px;
+}
+
+.card4 {
   display: flex;
   flex-direction: column;
   background-color: #e5e5e5;
