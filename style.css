@@ -185,12 +185,16 @@ p {
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 0.5rem;
+  background: linear-gradient(to right, transparent 50%, #07ff28 50%);
+  background-size: 200%;
+  background-position: left;
+  transition: background-position 0.5s;
 }
 
 .buttons__main:hover {
-  color: #fff;
-  border: 1px solid red;
-  background-color: blue;
+  background-position: right;
+  color: #000;
+  font-weight: 700;
 }
 
 .buttons__text {
