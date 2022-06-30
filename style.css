@@ -86,8 +86,11 @@ p {
 }
 
 .card1, 
-.card2, 
-.card3, 
+
+.card2,
+
+.card3,
+ 
 .card4 {
   display: flex;
   flex-direction: column;
