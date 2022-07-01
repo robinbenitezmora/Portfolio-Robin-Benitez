@@ -83,13 +83,6 @@ p {
   justify-content: flex-start;
 }
 
-.card1, .card2, .card3, .card4 {
-  display: flex;
-  flex-direction: column;
-  background-color: #e5e5e5;
-  padding: 30px 24px 24px 24px;
-}
-
 .card1 {
   display: flex;
   flex-direction: column;
