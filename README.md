@@ -2,9 +2,7 @@
 # Robin's Portfolio
 
 >
-This portfolio shows my achievements and what I have been able to develop thanks to my abilities by designing products in the programming world. If you have a new project and need code it, feel free to contact me.
-
-image.png
+This portfolio shows my achievements and what I have been able to develop thanks to my abilities by designing products in programming. If you have a new project and need code it, feel free to contact me.
 
 ## Built With
 
