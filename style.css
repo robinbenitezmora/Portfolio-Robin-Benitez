@@ -297,7 +297,7 @@ p {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin: 2rem 0;
+  margin: 32px 0;
 }
 
 .about-me__skills-text {
@@ -428,8 +428,9 @@ span {
 }
 
 .formulary__btn:hover{
-  background: #e50f0f;
-  color: #fff;
+  background: #e5d70f;
+  color: rgb(91, 99, 172);
+  transition: all 5s;
 }
 
 .formulary__btn-text {
