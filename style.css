@@ -231,7 +231,7 @@ p {
   display: flex;
   flex-direction: column;
   height: 40rem;
-  padding: 0rem 1.5rem;
+  padding: 0 1.5rem;
 }
 
 .about-me__text {
@@ -385,11 +385,13 @@ span {
   border: 0;
 }
 
-.formulary__input:invalid, textarea:invalid {
+.formulary__input:invalid,
+textarea:invalid {
   border: 2px solid #e50f0f;
 }
 
-.formulary__input:valid, textarea:valid {
+.formulary__input:valid,
+textarea:valid {
   border: 2px solid #07ff28;
 }
 
@@ -427,7 +429,7 @@ span {
   border: 0;
 }
 
-.formulary__btn:hover{
+.formulary__btn:hover {
   background: #e5d70f;
   color: rgb(91, 99, 172);
   transition: all 5s;
