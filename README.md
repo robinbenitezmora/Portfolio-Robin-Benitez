@@ -34,7 +34,7 @@ Give a ⭐️ if you like this project!
 
 -I thank Microverse for allowing me to use their template.
 
--Thanks to my coding partners and code reviewers for your good advices to improve my code.
+-Thanks to my coding partner Abdulrahman Nganje for helping with your good advices to improve my code in this project.
 
 ## 📝 License
 
