@@ -486,65 +486,65 @@ textarea:valid {
     display: flex;
     flex-direction: column;
   }
-  
+
   .card1__image1 {
     display: none;
   }
-  
+
   .card1__image2 {
     display: flex;
     width: 100%;
     height: auto;
   }
-  
+
   .card1__area {
     flex-direction: row;
     align-items: center;
     gap: 1rem;
   }
-  
+
   .card1__pictures {
     width: 50%;
     height: auto;
     align-items: flex-start;
   }
-  
+
   .card1__article {
     width: 50%;
     height: auto;
     align-items: flex-start;
   }
-  
+
   .card2__pictures {
     width: 50%;
     height: auto;
     align-items: flex-start;
     order: 2;
   }
-  
+
   .card2__article {
     width: 50%;
     height: auto;
     align-items: flex-start;
     order: 1;
   }
-  
+
   .about-me {
     flex-direction: row;
     height: auto;
     padding: 9rem 5rem 0 5rem;
   }
-  
+
   .about-me__text {
     width: 45%;
     height: auto;
     margin-top: 0;
   }
-  
+
   .about-me__skills {
     width: 55%;
   }
-  
+
   .about-me__skills-tag {
     display: flex;
     flex-direction: column;
@@ -555,7 +555,7 @@ textarea:valid {
     background: #f7f7f9;
     border-radius: 8px;
   }
-  
+
   .about-me__languages {
     flex-direction: row;
     align-items: flex-start;
@@ -563,7 +563,7 @@ textarea:valid {
     height: auto;
     gap: 0.75rem;
   }
-  
+
   .formulary {
     margin-top: 0;
     padding: 7rem 8rem 0 8rem;
@@ -579,7 +579,7 @@ textarea:valid {
     top: 240rem;
     right: 0;
   }
-  
+
   .formulary {
     height: 50rem;
   }
