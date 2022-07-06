@@ -125,9 +125,8 @@ p {
 
 .card1__image2 {
   display: none;
-  width: 100%;
-  height: auto;
 }
+
 
 .card1__text-title {
   display: flex;
@@ -465,4 +464,17 @@ textarea:valid {
   justify-content: center;
   align-items: center;
   margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .card1__image1 {
+    display: none;
+  }
+  
+  .card1__image2 {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  
 }
