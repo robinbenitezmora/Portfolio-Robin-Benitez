@@ -117,7 +117,14 @@ p {
   padding: 1rem;
 }
 
-.card1__image {
+.card1__image1 {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.card1__image2 {
+  display: none;
   width: 100%;
   height: auto;
 }
@@ -430,9 +437,9 @@ textarea:valid {
 }
 
 .formulary__btn:hover {
-  background: #e5d70f;
-  color: rgb(91, 99, 172);
-  transition: all 5s;
+  background: #e50f0f;
+  color: #dfe1e6;
+  transition: all 1s;
 }
 
 .formulary__btn-text {
