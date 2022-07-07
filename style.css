@@ -487,6 +487,10 @@ textarea:valid {
     flex-direction: column;
   }
 
+  .cover {
+    padding: 0 12rem;
+  }
+
   .card1__image1 {
     display: none;
   }
