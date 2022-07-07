@@ -29,6 +29,10 @@ header {
   margin-right: 1.5rem;
 }
 
+.menu__list {
+  display: none;
+}
+
 .cover {
   display: flex;
   flex-direction: column;
@@ -78,8 +82,8 @@ p {
 }
 
 .projects {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
 .card1 {
@@ -89,13 +93,7 @@ p {
   padding: 114px 24px 24px 24px;
 }
 
-.card2 {
-  display: flex;
-  flex-direction: column;
-  background-color: #e5e5e5;
-  padding: 30px 24px 24px 24px;
-}
-
+.card2,
 .card3 {
   display: flex;
   flex-direction: column;
@@ -111,15 +109,22 @@ p {
 }
 
 .card1__area {
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 1rem;
   padding: 1rem;
 }
 
-.card1__image {
+.card1__image1 {
+  display: flex;
   width: 100%;
   height: auto;
+}
+
+.card1__image2 {
+  display: none;
 }
 
 .card1__text-title {
@@ -327,6 +332,15 @@ span {
   font-size: 1rem;
 }
 
+.about-me__languages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
 .about-me__skills-tag {
   display: flex;
   flex-direction: row;
@@ -430,9 +444,9 @@ textarea:valid {
 }
 
 .formulary__btn:hover {
-  background: #e5d70f;
-  color: rgb(91, 99, 172);
-  transition: all 5s;
+  background: #e50f0f;
+  color: #dfe1e6;
+  transition: all 1s;
 }
 
 .formulary__btn-text {
@@ -444,13 +458,18 @@ textarea:valid {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #396df2;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
-.formulary__image {
+.formulary__image1 {
+  display: flex;
   position: absolute;
   top: 290rem;
   right: 0;
+}
+
+.formulary__image2 {
+  display: none;
 }
 
 .end-line {
@@ -458,4 +477,176 @@ textarea:valid {
   justify-content: center;
   align-items: center;
   margin-bottom: 0.5rem;
+}
+
+.formulary form {
+  text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  .formulary__image1 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cover {
+    padding: 0 12rem;
+  }
+
+  .menu__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 14rem;
+    height: auto;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu__list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 2rem;
+    margin: 0 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 1rem 9rem;
+  }
+
+  .card1__image1 {
+    display: none;
+  }
+
+  .card1__image2 {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+
+  .card1__area {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .card1__pictures {
+    width: 50%;
+    height: auto;
+    align-items: flex-start;
+  }
+
+  .card1__article {
+    width: 50%;
+    height: auto;
+    align-items: flex-start;
+  }
+
+  .card2__pictures {
+    width: 50%;
+    height: auto;
+    align-items: flex-start;
+    order: 2;
+  }
+
+  .card2__article {
+    width: 50%;
+    height: auto;
+    align-items: flex-start;
+    order: 1;
+  }
+
+  .about-me {
+    flex-direction: row;
+    height: auto;
+    padding: 9rem 5rem 0 5rem;
+  }
+
+  .about-me__text {
+    width: 45%;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .about-me__skills {
+    width: 55%;
+  }
+
+  .about-me__skills-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 5rem;
+    background: #f7f7f9;
+    border-radius: 8px;
+  }
+
+  .about-me__languages {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    gap: 0.75rem;
+  }
+
+  .formulary {
+    margin-top: 0;
+    padding: 7rem 8rem 0 8rem;
+  }
+
+  .formulary__btn {
+    margin: 2rem auto 6rem;
+  }
+}
+
+@media screen and (width: 1440px) {
+  .formulary__image2 {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 240rem;
+    right: 0;
+  }
+
+  .formulary {
+    height: 50rem;
+  }
+}
+
+@media screen and (width: 2560px) {
+  .formulary__image2 {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 350rem;
+    right: 0;
+  }
 }
