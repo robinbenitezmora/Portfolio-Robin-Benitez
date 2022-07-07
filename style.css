@@ -479,6 +479,10 @@ textarea:valid {
   margin-bottom: 0.5rem;
 }
 
+.formulary form {
+  text-align: center;
+}
+
 @media screen and (min-width: 480px) {
   .formulary__image1 {
     display: none;
@@ -617,7 +621,7 @@ textarea:valid {
   }
 
   .formulary__btn {
-    margin: 22px 24px 45px 280px;
+    margin: 2rem auto 6rem;
   }
 }
 
