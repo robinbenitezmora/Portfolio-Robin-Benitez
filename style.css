@@ -29,6 +29,10 @@ header {
   margin-right: 1.5rem;
 }
 
+.menu__list {
+  display: none;
+}
+
 .cover {
   display: flex;
   flex-direction: column;
@@ -491,6 +495,45 @@ textarea:valid {
     padding: 0 12rem;
   }
 
+  .menu__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 14rem;
+    height: auto;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu__list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 2rem;
+    margin: 0 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 1rem 9rem;
+  }
+
   .card1__image1 {
     display: none;
   }
@@ -571,6 +614,10 @@ textarea:valid {
   .formulary {
     margin-top: 0;
     padding: 7rem 8rem 0 8rem;
+  }
+
+  .formulary__btn {
+    margin: 22px 24px 45px 280px;
   }
 }
 
