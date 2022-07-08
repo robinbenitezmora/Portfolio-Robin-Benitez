@@ -121,6 +121,21 @@ p {
   display: flex;
   width: 100%;
   height: auto;
+  /* animation */
+  animation-name: movement;
+  animation-duration: 5s;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes movement {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
 }
 
 .card1__image2 {
