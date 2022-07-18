@@ -13,6 +13,21 @@ header {
   padding: 1rem 1.5rem;
 }
 
+.slide_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
 .header__links {
   display: flex;
   flex-direction: row;
@@ -505,21 +520,6 @@ textarea:valid {
 }
 
 @media screen and (min-width: 768px) {
-  #slide_menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-
-  .items {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-
   .projects {
     display: flex;
     flex-direction: column;
