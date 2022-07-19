@@ -50,9 +50,34 @@ const projects = [
 ];
 
 const popup = document.getElementById('modal');
-const detailTitle = document.getElementById('modal-title');
-const detailDescription = document.getElementById('modal-description');
-const detailLanguajes = document.getElementById('modal-technologies');
+const popupTitle = document.getElementById('modal-title');
+const popupDescription = document.getElementById('modal-description');
+const popupLanguajes = document.getElementById('modal-technologies');
 const btnDetailLive = document.getElementById('modal-see-live');
 const btnDetailSource = document.getElementById('modal-see-source');
-const detailImage = document.getElementById('detailImage');
+const popupImage = document.getElementById('modal-image');
+
+const openModal = (projectNumber = null) => {
+  if (projectNumber != null) {
+    const tech = projects[projectNumber].technologies;
+    let techShow = '';
+    tech.forEach((item) => { techShow += `<li>${item}</li>`; });
+
+    popup.style.width = '100%';
+    popup.style.left = '0';
+    popup.style.top = '0';
+    popupTitle.innerText = projects[projectNumber].name;
+    popupDescription.innerText = projects[projectNumber].description;
+    btnDetailLive.href = projects[projectNumber].link;
+    btnDetailSource.href = projects[projectNumber].source;
+    popupImage.src = projects[projectNumber].image;
+  }
+};
+
+const closeModal = () => {
+  popup.style.width = '0%';
+  popup.style.left = '-100%';
+};
+
+openPopup.addEventListener('click', openModal);
+closePopup.addEventListener('click', closeModal);
