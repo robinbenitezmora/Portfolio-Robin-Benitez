@@ -506,6 +506,9 @@ textarea:valid {
 
 .modal {
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;  
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -538,6 +541,7 @@ textarea:valid {
 
 .modal__image-mobile {
   display: none;
+  
 }
 
 .modal__text {
@@ -550,7 +554,7 @@ textarea:valid {
 .paragraph {
   width: 70%;
   height: auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -585,7 +589,7 @@ textarea:valid {
   height: 1.5rem;
   background: #ebebff;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -609,12 +613,12 @@ textarea:valid {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 0.5rem;
+  padding: 0.5rem 0.3rem;
   width: 8rem;
   height: 2.5rem;
   border-radius: 8px;
   border: 1px solid #6070ff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -657,7 +661,7 @@ textarea:valid {
     position: absolute;
     top: 4rem;
     right: 2.5rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 2.5rem;
     line-height: 1.25rem;
@@ -671,7 +675,7 @@ textarea:valid {
     height: 2.5rem;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -698,7 +702,7 @@ textarea:valid {
     display: flex;
     justify-content: start;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -720,6 +724,10 @@ textarea:valid {
   }
 
   .modal-mobile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background: #fff;
     border-radius: 1rem;
     border: 1px solid #dfe1e6;
