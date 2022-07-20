@@ -8,7 +8,10 @@ This portfolio shows my achievements and what I have been able to develop thanks
 
 - HTML5.
 - CSS.
+- JavaScript
 - Visual Studio Code.
+- Git
+- GitHub
 
 
 ### Install
@@ -36,7 +39,7 @@ Give a ⭐️ if you like this project!
 
 -I thank Microverse for allowing me to use their template.
 
--Thanks to my coding partner Abdulrahman Nganje for helping with your good advices to improve my code in this project.
+-Thanks to my coding partner Promise Ukay for helping with your good advices to improve my code in this project.
 
 ## 📝 License
 
