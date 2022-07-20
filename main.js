@@ -66,6 +66,7 @@ const openModal = (projectNumber = null) => {
 
     popup.style.width = '100%';
     popup.style.left = '0';
+    popup.style.top = '0';
     popupTitle.innerText = projects[projectNumber].name;
     popupDescription.innerText = projects[projectNumber].description;
     popupLanguajes.innerHTML = techShow;

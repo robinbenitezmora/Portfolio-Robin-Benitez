@@ -562,7 +562,7 @@ textarea:valid {
 }
 
 .paragraph {
-  width: 70%;
+  width: 60%;
   height: auto;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -576,7 +576,7 @@ textarea:valid {
 .modal__text-buttons {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 40%;
   height: auto;
 }
 
@@ -611,7 +611,7 @@ textarea:valid {
 .buttons-link {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
   height: auto;
   margin-top: 2rem;
@@ -732,7 +732,9 @@ textarea:valid {
     left: 0;
     top: 0;
     background: #c1c7d0;
-    padding: 4rem 2rem;
+    justify-content: flex-start;
+    padding: 1rem;
+    height: 100vh;
   }
 
   .modal-mobile {
