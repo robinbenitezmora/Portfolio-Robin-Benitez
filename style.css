@@ -525,6 +525,8 @@ textarea:valid {
   border: 1px solid #dfe1e6;
   gap: 0.5rem;
   padding: 1rem;
+  width: 70vw;
+  height: 100vh;
 }
 
 .modal__header {
@@ -546,6 +548,7 @@ textarea:valid {
   display: flex;
   justify-content: center;
   width: 45vw;
+  height: 50vh;
   padding: 0 1rem 1rem 1rem;
   margin: auto;
 }
@@ -564,7 +567,7 @@ textarea:valid {
 .paragraph {
   width: 60%;
   height: auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -578,6 +581,7 @@ textarea:valid {
   flex-direction: column;
   width: 40%;
   height: auto;
+  padding: 0;
 }
 
 .modal__tech1,
@@ -599,7 +603,7 @@ textarea:valid {
   height: 1.5rem;
   background: #ebebff;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -628,7 +632,7 @@ textarea:valid {
   height: 2.5rem;
   border-radius: 8px;
   border: 1px solid #6070ff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -671,7 +675,7 @@ textarea:valid {
     position: absolute;
     top: 4rem;
     right: 2.5rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-size: 2.5rem;
     line-height: 1.25rem;
@@ -685,7 +689,7 @@ textarea:valid {
     height: 2.5rem;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -712,7 +716,7 @@ textarea:valid {
     display: flex;
     justify-content: start;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -733,7 +737,7 @@ textarea:valid {
     top: 0;
     background: #c1c7d0;
     justify-content: flex-start;
-    padding: 1rem;
+    padding: 0;
     height: 100vh;
   }
 
