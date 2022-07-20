@@ -61,13 +61,14 @@ const openModal = (projectNumber = null) => {
   if (projectNumber != null) {
     const tech = projects[projectNumber].technologies;
     let techShow = '';
-    tech.forEach((item) => { techShow += `<li>${item}</li>`; });
+    tech.forEach((item) => { techShow += `<li class="badget">${item}</li>`; });
 
     popup.style.width = '100%';
     popup.style.left = '0';
     popup.style.top = '0';
     popupTitle.innerText = projects[projectNumber].name;
     popupDescription.innerText = projects[projectNumber].description;
+    popupLanguajes.innerHTML = techShow;
     btnDetailLive.href = projects[projectNumber].link;
     btnDetailSource.href = projects[projectNumber].source;
     popupImage.src = projects[projectNumber].image;
@@ -79,5 +80,5 @@ const closeModal = () => {
   popup.style.left = '-100%';
 };
 
-openPopup.addEventListener('click', openModal);
-closePopup.addEventListener('click', closeModal);
+openModal();
+closeModal();
