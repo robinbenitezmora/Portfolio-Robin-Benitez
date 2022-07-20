@@ -39,7 +39,7 @@ Give a ⭐️ if you like this project!
 
 -I thank Microverse for allowing me to use their template.
 
--Thanks to my coding partner Promise Ukay for helping with your good advices to improve my code in this project.
+-Thanks to my coding partner Promise Ukay for helping with your good advices to correct my code in this code review.
 
 ## 📝 License
 
