@@ -17,7 +17,7 @@ closeNav.addEventListener('click', () => {
 const projects = [
   {
     name: 'Tonic',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     image: './images/card1.svg',
     technologies: ['html', 'css', 'JavaScript'],
     link: 'https://www.tripadvisor.co/Attractions-g652402-Activities-Manizales_Caldas_Department.html',
@@ -25,7 +25,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     image: './images/card2.svg',
     technologies: ['html', 'css', 'JavaScript'],
     link: 'https://www.tripadvisor.co/Attractions-g652402-Activities-Manizales_Caldas_Department.html',
@@ -33,7 +33,7 @@ const projects = [
   },
   {
     name: 'Facebook 360',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    description: 'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     image: './images/card3.svg',
     technologies: ['html', 'css', 'JavaScript'],
     link: 'https://www.tripadvisor.co/Attractions-g652402-Activities-Manizales_Caldas_Department.html',
@@ -41,7 +41,7 @@ const projects = [
   },
   {
     name: 'Uber Navigation',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.',
+    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     image: './images/card4.svg',
     technologies: ['html', 'css', 'JavaScript'],
     link: 'https://www.tripadvisor.co/Attractions-g652402-Activities-Manizales_Caldas_Department.html',
@@ -55,7 +55,8 @@ const popupDescription = document.getElementById('modal-description');
 const popupLanguajes = document.getElementById('modal-technologies');
 const btnDetailLive = document.getElementById('modal-see-live');
 const btnDetailSource = document.getElementById('modal-see-source');
-const popupImage = document.getElementById('modal-image');
+const popupImageMobile = document.getElementById('modal-image-mobile');
+const popupImageDesktop = document.getElementById('modal-image-desktop');
 
 const openModal = (projectNumber = null) => {
   if (projectNumber != null) {
@@ -65,13 +66,13 @@ const openModal = (projectNumber = null) => {
 
     popup.style.width = '100%';
     popup.style.left = '0';
-    popup.style.top = '0';
     popupTitle.innerText = projects[projectNumber].name;
     popupDescription.innerText = projects[projectNumber].description;
     popupLanguajes.innerHTML = techShow;
     btnDetailLive.href = projects[projectNumber].link;
     btnDetailSource.href = projects[projectNumber].source;
-    popupImage.src = projects[projectNumber].image;
+    popupImageMobile.src = projects[projectNumber].image;
+    popupImageDesktop.src = projects[projectNumber].image;
   }
 };
 

@@ -508,14 +508,23 @@ textarea:valid {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #fff;
-  position: absolute;
+  align-items: center;
+  position: fixed;
   left: 0;
   top: 0;
-  align-items: center;
-  padding: 1.5rem 1.5rem 3rem 1.5rem;
+  height: 100vh;
+  padding: 2rem 6rem;
   transition: all 1000ms linear;
-  scroll-behavior: smooth;
+  background-color: #c1c7d0;
+  backdrop-filter: blur(10px);
+}
+
+.modal-mobile {
+  background: #fff;
+  border-radius: 1rem;
+  border: 1px solid #dfe1e6;
+  gap: 0.5rem;
+  padding: 1rem;
 }
 
 .modal__header {
@@ -536,10 +545,9 @@ textarea:valid {
 .modal__image-desktop {
   display: flex;
   justify-content: center;
-  width: 100%;
-  height: auto;
-  padding: 1rem 0;
-  overflow-x: hidden;
+  width: 45vw;
+  padding: 0 1rem 1rem 1rem;
+  margin: auto;
 }
 
 .modal__image-mobile {
@@ -720,12 +728,11 @@ textarea:valid {
   }
 
   .modal {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     background: #c1c7d0;
     padding: 4rem 2rem;
-    width: 100%;
   }
 
   .modal-mobile {
