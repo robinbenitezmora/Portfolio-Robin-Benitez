@@ -221,18 +221,12 @@
         need built or a project that needs coding. I’d love to help with it </p>
       <img class="formulary__image1" src="./images/form-shapes-mobile@2x.svg" alt="backgroung form">
       <img class="formulary__image2" src="./images/contact-form-shapes-desktop.svg" alt="backgroung form">
-      <form action="https://formspree.io/f/xeqnpkpe" method="post">
-        <label for="name">
-          <input class="formulary__input formulary__input-text" name="name" type="text" id="name" maxlength="30"
-            placeholder="Your name" required>
-        </label>
-        <label for="e-mail">
-          <input class="formulary__input formulary__input-text" name="email" type="email" id="e-mail"
-            placeholder="user_name@mail.com" required>
-        </label>
-        <textarea class="formulary__message-area formulary__input-text" name="message-area" id="message-area"
-          maxlength="500" placeholder="Write your message here" required></textarea>
-        <button type="submit" class="formulary__btn formulary__btn-text">Get It Touch</button>
+      <form action="https://formspree.io/f/xeqnpkpe" id="form" class="form" method="post">
+        <input class="formulary__input formulary__input-text" name="name" type="text" id="name" keyup="validateName()" maxlength="30" placeholder="Your name" required>
+        <input class="formulary__input formulary__input-text" name="email" type="email" id="e-mail" keyup="validateEmail()" id="contact-email" maxlength="30" placeholder="user_name@mail.com" required>
+        <textarea class="formulary__message-area formulary__input-text" name="message-area" id="message-area" maxlength="500" cols="50" placeholder="Write your message here" required></textarea>
+        <button type="submit" class="formulary__btn formulary__btn-text" onclick="return validateForm()">Get It Touch</button>
+        <span id="submit-error"></span>
         <div class="end-line"><img src="./images/end-line.png" alt="end-line"></div>
       </form>
     </section>
@@ -268,13 +262,15 @@
             </ul>
             <div class="buttons-link">
               <a class="btn" id="modal-see-live">See live<span><img src="./icons/export.png" alt="export"></span></a>
-              <a class="btn" id="modal-see-source">See Source<span><img src="./icons/github.png" alt="github"></span></a>
+              <a class="btn" id="modal-see-source">See Source<span><img src="./icons/github.png"
+                    alt="github"></span></a>
             </div>
           </div>
         </div>
       </div>
     </section>
   </main>
+  <script src="https://kit.fontawesome.com/027aaed1a3.js" crossorigin="anonymous"></script>
   <script src="./main.js"></script>
 </body>
 
