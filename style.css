@@ -504,6 +504,15 @@ textarea:valid {
   text-align: center;
 }
 
+.error-message {
+  color: #fff;
+  display: none;
+}
+
+.error-message.active {
+  display: contents;
+}
+
 .modal {
   display: flex;
   flex-direction: column;
