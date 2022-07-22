@@ -100,3 +100,26 @@ document.getElementById('form').addEventListener('submit', (event) => {
     emailError.classList.add('active');
   }
 });
+
+// Local Storage
+const userName = document.getElementById('name');
+const userEmail = document.getElementById('email');
+const userMessage = document.getElementById('message-area');
+
+function saveData() {
+  const userData = {
+    name: userName.value,
+    email: userEmail.value,
+    message: userMessage.value,
+};
+  localStorage.setItem('userData', JSON.stringify(userData));
+}
+
+userName.addEventListener('keyup', saveData);
+userEmail.addEventListener('keyup', saveData);
+userMessage.addEventListener('keyup', saveData);
+
+const savedUserData = localStorage.getItem('userData');
+document.getElementById('name').value = JSON.parse(savedUserData).name;
+document.getElementById('email').value = JSON.parse(savedUserData).email;
+document.getElementById('message-area').value = JSON.parse(savedUserData).message;
