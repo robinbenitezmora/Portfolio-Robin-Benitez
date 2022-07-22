@@ -410,8 +410,12 @@ span {
   margin-bottom: 3rem;
 }
 
+.form {
+  text-align: center;
+}
+
 .formulary__input {
-  width: 100%;
+  min-width: 100%;
   max-width: 48rem;
   height: 3rem;
   background: #fff;
@@ -500,8 +504,15 @@ textarea:valid {
   margin-bottom: 0.5rem;
 }
 
-.formulary form {
-  text-align: center;
+.error-message {
+  color: #fff;
+  display: none;
+}
+
+.error-message.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal {
