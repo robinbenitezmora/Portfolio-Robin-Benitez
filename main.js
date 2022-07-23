@@ -1,6 +1,6 @@
 const openSlideMenu = document.querySelector('.menu');
 const closeSlideMenu = document.querySelector('.cls');
-
+const closeNav = 'closeNav';
 
 openSlideMenu.addEventListener('click', () => {
   document.getElementById('slide_menu').classList.add('active');
