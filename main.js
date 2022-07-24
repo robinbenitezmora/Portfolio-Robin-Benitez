@@ -58,7 +58,7 @@ const popupTitle = document.getElementById('modal-title');
 const popupDescription = document.getElementById('modal-description');
 const popupLanguajes = document.getElementById('modal-technologies');
 const btnDetailLive = document.getElementById('modal-see-live');
-const btnDetailSource = document.getElementById('modal-source');
+const btnDetailSource = document.getElementById('modal-see-source');
 const popupImageMobile = document.getElementById('modal-image-mobile');
 const popupImageDesktop = document.getElementById('modal-image-desktop');
 
