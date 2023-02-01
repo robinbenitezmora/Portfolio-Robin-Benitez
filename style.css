@@ -136,6 +136,7 @@ p {
   display: flex;
   width: 100%;
   height: auto;
+  border-radius: 0.7rem;
   animation-name: movement;
   animation-duration: 1.5s;
   animation-iteration-count: 2;
