@@ -16,40 +16,40 @@ closeNav.addEventListener('click', () => {
 
 const projects = [
   {
-    name: 'Tonic',
+    name: 'Crypto Coins',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: './images/card1.svg',
-    technologies: ['html', 'css', 'JavaScript'],
-    link: 'https://www.tripadvisor.co/Attractions-g652402-Activities-Manizales_Caldas_Department.html',
-    source: 'https://github.com/robinbenitezmora/Portfolio-Robin-Benitez',
+      'We can provide you with real-time data on the prices and market trends of different cryptocurrencies, as well as its historical data to help you analyze market movements and make informed investment decisions.',
+    image: './images/crypto_coins.png',
+    technologies: ['html', 'css', 'JavaScript', 'React', 'Redux'],
+    link: 'https://gregarious-pasca-272a68.netlify.app/',
+    source: 'https://github.com/robinbenitezmora/crypto-coins',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'My Budget App',
     description:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    image: './images/card2.svg',
-    technologies: ['html', 'css', 'JavaScript'],
-    link: 'https://www.tripadvisor.co/Attractions-g652402-Activities-Manizales_Caldas_Department.html',
-    source: 'https://github.com/robinbenitezmora/Portfolio-Robin-Benitez',
+      'This application allows you to input their income and expenses, and provides a visual representation of their financial situation in real-time. It often provides features to help to understand their spending habits and make informed decisions about their finances.',
+    image: './images/my_budget_app.png',
+    technologies: ['html', 'css', 'JavaScript', 'Ruby on Rails', 'PostgreSQL'],
+    link: 'https://my-budget-manager-c423.onrender.com/',
+    source: 'https://github.com/robinbenitezmora/My-Budget-Manager',
   },
   {
-    name: 'Facebook 360',
+    name: 'Weather',
     description:
-      'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    image: './images/card3.svg',
-    technologies: ['html', 'css', 'JavaScript'],
-    link: 'https://www.tripadvisor.co/Attractions-g652402-Activities-Manizales_Caldas_Department.html',
-    source: 'https://github.com/robinbenitezmora/Portfolio-Robin-Benitez',
+      'This application allows you to view current weather conditions, including temperature, humidity, wind speed, and precipitation. The user-friendly interface and visual representation of weather information makes it easy for you to stay informed about the weather and plan accordingly.',
+    image: './images/weather.png',
+    technologies: ['html', 'css', 'JavaScript', 'React', 'Redux'],
+    link: 'https://moonlit-queijadas-da638a.netlify.app/',
+    source: 'https://github.com/robinbenitezmora/capstone3',
   },
   {
-    name: 'Uber Navigation',
+    name: 'TV Shows',
     description:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    image: './images/card4.svg',
+      'This application allows you to keep track of the TV shows you watch and discover new ones. It allows users to create a list of shows they are currently watching, as well as write comments and ratings. The application makes it a convenient tool for individuals to manage their TV watching habits.',
+    image: './images/tvseries.png',
     technologies: ['html', 'css', 'JavaScript'],
-    link: 'https://www.tripadvisor.co/Attractions-g652402-Activities-Manizales_Caldas_Department.html',
-    source: 'https://github.com/robinbenitezmora/Portfolio-Robin-Benitez',
+    link: 'https://gregarious-melba-45d9be.netlify.app/',
+    source: 'https://github.com/robinbenitezmora/Capstone-2',
   },
 ];
 
