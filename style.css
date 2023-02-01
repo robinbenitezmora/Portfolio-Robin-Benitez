@@ -202,16 +202,19 @@ p {
 .buttons {
   display: flex;
   flex-direction: column;
-  width: 13rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   height: 8rem;
   margin-top: 1rem;
 }
 
 .buttons__languages {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 13rem;
+  width: auto;
   margin-bottom: 2rem;
 }
 
@@ -226,9 +229,11 @@ p {
 }
 
 .buttons__technology {
+  display: flex;
   padding: 0.25rem 0.75rem;
   background: #ebebff;
   border-radius: 0.5rem;
+  margin: 0.5rem;
 }
 
 .buttons__main {
