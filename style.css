@@ -52,7 +52,7 @@ header {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 35rem;
+  height: 38rem;
   gap: 1rem;
   padding: 0 1.5rem;
   background-image: url("./images/header-shapes-mobile@2x.svg");
@@ -136,6 +136,7 @@ p {
   display: flex;
   width: 100%;
   height: auto;
+  border-radius: 0.7rem;
   animation-name: movement;
   animation-duration: 1.5s;
   animation-iteration-count: 2;
@@ -202,16 +203,19 @@ p {
 .buttons {
   display: flex;
   flex-direction: column;
-  width: 13rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   height: 8rem;
   margin-top: 1rem;
 }
 
 .buttons__languages {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 13rem;
+  width: auto;
   margin-bottom: 2rem;
 }
 
@@ -226,9 +230,11 @@ p {
 }
 
 .buttons__technology {
+  display: flex;
   padding: 0.25rem 0.75rem;
   background: #ebebff;
   border-radius: 0.5rem;
+  margin: 0.5rem;
 }
 
 .buttons__main {
