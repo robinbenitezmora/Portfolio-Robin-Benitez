@@ -25,7 +25,7 @@ Any suggestion is welcome.
 
 GitHub: https://github.com/robinbenitezmora
 
-GitHub Pages Deployed: https://robinbenitezmora.github.io/Portfolio-Robin-Benitez/
+GitHub Pages Deployed: https://fantastic-vacherin-cc7c94.netlify.app
 
 LinkedIn: https://www.linkedin.com/in/robin-benitez-mora-manizales/
 
