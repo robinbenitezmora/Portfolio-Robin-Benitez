@@ -25,7 +25,7 @@ Any suggestion is welcome.
 
 GitHub: https://github.com/robinbenitezmora
 
-GitHub Pages Deployed: https://fantastic-vacherin-cc7c94.netlify.app
+GitHub Pages Deployed: https://melodious-pony-b93dcb.netlify.app/
 
 LinkedIn: https://www.linkedin.com/in/robin-benitez-mora-manizales/
 
